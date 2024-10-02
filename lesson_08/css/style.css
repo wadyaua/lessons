@@ -1,0 +1,171 @@
+/* шрифти */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,600,800&display=swap");
+/* обнулення */
+@import url("reset.css");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #171717;
+  background-image: linear-gradient(
+    140deg,
+    hsl(21deg 83% 95%) 0%,
+    hsl(21deg 80% 94%) 32%,
+    hsl(21deg 77% 93%) 41%,
+    hsl(21deg 76% 92%) 47%,
+    hsl(21deg 74% 90%) 52%,
+    hsl(21deg 74% 89%) 55%,
+    hsl(21deg 73% 88%) 59%,
+    hsl(21deg 73% 86%) 62%,
+    hsl(21deg 72% 85%) 68%,
+    hsl(21deg 72% 83%) 76%,
+    hsl(21deg 72% 82%) 100%
+  );
+  background-attachment: fixed;
+}
+.wrapper {
+  max-width: 1227px;
+  margin: 0 auto;
+}
+.h1-title {
+  font-size:    46px;
+  font-weight:  800;
+  line-height: 1;
+  text-align:   center;
+  margin-block: 48px;
+}
+.h1-title::after {
+  content:          "";
+  display:          block;
+  margin:           15px auto 0;
+  width:            30%;
+  height:           4px;
+  background-color: #171717;
+}
+
+.h2-title {
+  line-height: 1;
+  font-size:    34px;
+  font-weight:  600;
+  text-align:   center;
+  color:      #f4f4f4;
+  margin-block: 48px;
+}
+.footer-title{
+  display: block;
+  color: #171717;
+}
+
+.text {
+  font-weight: 400;
+  font-size:   26px;
+  color:       #171717;
+  vertical-align: center;
+  line-height: 1;
+}
+p.text {
+  margin-block-start: 28px;
+}
+
+.bold-text {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.page-content {
+  padding:          26px;
+  border-radius:    28px;
+  background-color: #28293E;
+}
+.icon-items {
+  margin-bottom:    24px;
+}
+.icon-item {
+  padding:          28px;
+  border-radius:    28px;
+  background-color: #e2e2e2;
+  display:          inline-block;
+  transition:       all 0.5s ease;
+}
+.light-item-block:hover {
+  cursor:      pointer;
+  transform:   translateY(-3px);
+  box-shadow:  0 0 16px #898989 ;
+}
+.icon-item:not(:last-child) {
+  margin-right: 24px;
+}
+.icon-img {
+  width:            90px;
+  margin-right:     12px;
+}
+.icon-img, .icon-text {
+  display:          inline-block;
+  vertical-align:   middle;
+  text-align:       center;
+}
+
+.icon-img.social-icons:not(:last-of-type) {
+  margin-right: 53px;
+}
+.dark-item-block {
+  background-color: #a8a8a87d;
+  transition:       all 0.5s ease;
+}
+.dark-item-block:hover {
+  cursor: pointer;
+  transform:   translateY(-3px);
+  box-shadow:  0 0 16px #a1a1a1 ;
+}
+.dark-item-block .text {
+  color:           #f4f4f4;
+}
+
+.vector-icons {
+  height: 90px;
+}
+
+.big-icon-img {
+  width: 375px;
+  margin-right: 8px;
+}
+.big-icon-img:not(:last-of-type) {
+  margin-right: 24px;
+}
+
+
+.logo-item {
+  display:          inline-block;
+  vertical-align:   middle;
+  max-height:       150px; 
+  line-height:      4;
+  padding:          46px;
+  border-radius:    28px;
+  background-color: #e2e2e2;
+  transition:       all 0.5s ease;
+  
+}
+.logo-item:not(:last-child) {
+  margin-right: 24px;
+}
+.logo-img {
+  vertical-align: middle;
+}
+
+.photo-item {
+  padding:          28px;
+  border-radius:    28px;
+  background-color: #e2e2e2;
+  text-align:       center;
+  margin-bottom:    24px;
+  transition:       all 0.5s ease;
+}
+.photo-img-1 {
+  width: 1120px;
+}
+.photo-item img {
+  border-radius:  28px;
+}
+
+.footer-text {
+  text-align: center;
+}
