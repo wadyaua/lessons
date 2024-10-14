@@ -1,0 +1,66 @@
+/* reset */
+@import url("reset.css");
+/* fonts */
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:600,800&display=swap");
+body {
+  font-family: "Epilogue", sans-serif;
+
+  color: rgba(57, 20, 0, 0.64);
+  background-image: linear-gradient(
+    140deg,
+    hsl(21deg 83% 95%) 0%,
+    hsl(21deg 80% 94%) 32%,
+    hsl(21deg 77% 93%) 41%,
+    hsl(21deg 76% 92%) 47%,
+    hsl(21deg 74% 90%) 52%,
+    hsl(21deg 74% 89%) 55%,
+    hsl(21deg 73% 88%) 59%,
+    hsl(21deg 73% 86%) 62%,
+    hsl(21deg 72% 85%) 68%,
+    hsl(21deg 72% 83%) 76%,
+    hsl(21deg 72% 82%) 100%
+  );
+  background-attachment: fixed;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: #FDF0E9;
+}
+.header, .footer {
+  background-color: #28293E;
+  padding-block: 60px;
+}
+.header__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size:   56px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+}
+.footer__body {
+  text-align: center;
+  color: #fff;
+}
+.footer__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size:   42px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-block-end: 22px;
+}
+.footer__link {
+  font-family: "Montserrat", sans-serif;
+  font-size:   28px;
+  transition: all 0.3s ease;
+}
+.footer__link:hover {
+  color: #EF6C57;
+}
+
+
+
