@@ -30,9 +30,6 @@ body {
   padding-right: 2.5rem;
   margin: 0 auto;
 }
-.wrapper {
-  background: #FDF0E9;
-}
 .header, .footer {
   background-color: #28293E;
   padding-block: 60px;
