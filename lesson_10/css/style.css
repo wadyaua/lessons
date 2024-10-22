@@ -827,6 +827,7 @@ body {
   padding: 10px 16px;
   margin-block-end: 23px;
   text-align: center;
+	line-height: 1;
   transition: all 0.5s ease;
 }
 .description-cover__lable:hover  {
