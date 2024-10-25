@@ -1,0 +1,275 @@
+/* шрифти */
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:regular,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap");
+@import url("fonts.css");
+
+/* обнулення */
+@import url("reset.css");
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  color: #556070;
+}
+
+.wrapper {
+  min-height: 100%;
+}
+
+[class*="__container"] {
+  max-width: 1200px;
+  padding-inline: 16px;
+  margin-inline: auto;
+}
+
+.title {
+  font-size: 8rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.1;
+}
+
+.title--halloween {
+  font-family: "HALLOWEENN", Arial, sans-serif;
+  text-shadow: 3px 3px 14px #4a1fda;
+}
+
+.text {
+  font-size: 1.5rem;
+  color: #fff;
+  line-height: 1.1;
+}
+
+.text--italic {
+  font-style: italic;
+  color: orangered;
+  text-decoration: underline;
+  text-decoration-color: #694ec1;
+  text-decoration-style: wavy;
+}
+
+.text--halloween {
+  font-family: "HALLOWEENN", Arial, sans-serif;
+  font-size: 3rem;
+  text-shadow: 2px 2px 10px orangered;
+  letter-spacing: 3px;
+}
+
+.text--semibold {
+  font-weight: 600;
+}
+
+.text--uppercase {
+  text-transform: uppercase;
+  text-shadow: 2px 2px 10px #92dc39;
+}
+
+
+
+.header {
+  position: relative;
+  padding-block: 28px;
+  background-color: rgba(23, 23, 23, 0.87)
+}
+
+.header__background img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+
+
+/* ------------- practice ------------- */
+
+.practice {
+  padding-block: 40px;
+  position: relative;
+}
+
+.practice__title {
+  font-size: 5rem;
+  text-align: left;
+  text-shadow: 3px 3px 14px rgb(88, 245, 4);
+}
+
+.block-practice>*:not(:last-child) {
+  margin-block-end: 32px;
+}
+
+.block-practice__underline {
+  text-decoration: underline;
+  text-decoration-color: coral;
+}
+
+.block-practice__dashed {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: #92dc39;
+}
+
+.block-practice__dotted {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #39dcd9;
+}
+
+.block-practice__double {
+  text-decoration: underline;
+  text-decoration-style: double;
+  text-decoration-color: #de2195;
+}
+
+.block-practice__overline {
+  text-decoration: overline;
+  text-decoration-style: dotted;
+  text-decoration-color: orangered;
+}
+
+.block-practice__line-throught {
+  text-decoration: line-through;
+  color: orangered;
+  text-decoration-color: #9277ec;
+  text-decoration-style: wavy;
+}
+
+
+.practice__background img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+
+/* ------------- home-work ------------- */
+
+/* --------- portfolio --------- */
+
+.portfolio {
+  padding-block: 48px;
+}
+
+.portfolio__block-text {
+  max-width: 536px;
+}
+
+.portfolio__title {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.31;
+  color: #132238;
+  margin-block-end: 32px;
+}
+
+.portfolio__text>*:not(:last-child) {
+  margin-block-end: 16px;
+}
+
+.portfolio__text {
+  font-size: 18px;
+  line-height: 1.333;
+  font-weight: 400;
+  color: #556070;
+}
+
+
+/* --------- about-us --------- */
+
+.about-us {
+  border-top: 1px solid #000;
+  padding-block: 48px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.about-us__text-block {
+  max-width: 652px;
+}
+
+.about-us__title {
+  color: #1E1B39;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 1.0795;
+  margin-block-end: 24px;
+}
+
+.about-us__text {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #474464;
+}
+
+.about-us__text p:first-child {
+  padding-block-end: 64px;
+  position: relative;
+}
+
+.about-us__text p:first-child::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 651.075px;
+  height: 1.5px;
+  background: #DEDEE9;
+}
+
+.about-us__text p:last-child {
+  padding-block-start: 64px;
+}
+
+/* --------- introduce --------- */
+
+.introduce {
+  border-top: 1px solid #000;
+  padding-block: 48px;
+  font-family: "Roboto", serif;
+}
+
+.introduce__text-block {
+  max-width: 539px;
+}
+
+.introduce__title {
+  color: #091133;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.32;
+  letter-spacing: 1px;
+  margin-block-end: 20px;
+}
+
+.introduce__text p:not(:last-child) {
+  margin-block-end: 30px;
+}
+
+.introduce__text {
+  color: #505F98;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.66;
+}
+
+.footer {
+  position: relative;
+  padding-block: 48px;
+  background-color: rgba(23, 23, 23, 0.534)
+}
+
+.footer__background img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+}
