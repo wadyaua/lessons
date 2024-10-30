@@ -1,0 +1,276 @@
+/* шрифти */
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rubik+Wet+Paint:regular&display=swap");
+/* обнулення */
+@import url("reset.css");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  background-color: rgb(244, 244, 244);
+}
+
+.wrapper {
+  min-height: 100%;
+}
+
+[class*="__container"] {
+  max-inline-size: 980px;
+  padding-inline: 16px;
+  margin-inline: auto;
+}
+
+
+.header {
+  font-family: "Rubik Wet Paint", Arial, sans-serif;
+  padding-block: 60px;
+}
+
+.header__title {
+  font-size: 62px;
+  text-align: center;
+  color: #171717;
+  text-shadow: 2px 2px 8px rgb(255, 77, 0);
+}
+
+/* -------- devices --------- */
+.devices {
+  font-family: "Manrope", sans-serif;
+  padding-block: 120px;
+  background-color: #141414;
+}
+
+.text-devices {
+  color: #999;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  /* 27/18 */
+}
+
+.devices__container {
+  max-inline-size: 1400px;
+}
+
+.devices__header>*:not(:last-child) {
+  margin-block-end: 14px;
+}
+
+.devices__header {
+  margin-block-end: 80px;
+}
+
+.devices__title {
+  color: #FFF;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.5;
+  /* 57/38 */
+}
+
+.card__items {
+  margin-inline: -15px;
+  font-size: 0;
+}
+
+.card__item {
+  width: 33.333%;
+  display: inline-block;
+  margin-bottom: 30px;
+  padding-inline: 15px;
+}
+
+.card__content {
+  padding: 50px;
+  border-radius: 12px;
+  border: 1px solid #262626;
+  background: linear-gradient(222deg, rgba(229, 0, 0, 0.50) -208.03%, rgba(229, 0, 0, 0.00) 41.32%), #0F0F0F;
+}
+
+.card__name {
+  margin-block-end: 30px;
+}
+
+.card__name>* {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.card__icon {
+  margin-inline-end: 16px;
+}
+
+.card__title {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+  /* 36/24 */
+}
+
+/* -------- introduce --------- */
+.introduce {
+  font-family: "Roboto", sans-serif;
+  padding-block: 120px;
+  font-size: 0;
+  border-bottom: 1px solid #171717;
+}
+
+.introduce__container {
+  max-inline-size: 574px;
+}
+
+.introduce__title {
+  color: #091133;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.32;
+  /* 66/50 */
+  letter-spacing: 1px;
+  margin-block-end: 20px;
+}
+
+.introduce__text {
+  color: #505F98;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.67;
+  /* 30/18 */
+  margin-block-end: 70px;
+}
+
+.introduce__text>*:not(:last-child) {
+  margin-block-end: 30px;
+}
+
+.introduce__buttons>* {
+  display: inline-block;
+}
+
+.introduce__button-dark {
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  /* 26/16 */
+  background-color: #111B47;
+  padding: 10px 15px;
+  min-inline-size: 189px;
+  border-radius: 6px;
+  margin-inline-end: 30px;
+  transition: all 0.5s ease;
+}
+
+.introduce__button-dark:hover {
+  background-color: #FFD166;
+  color: #171717;
+}
+
+.introduce__button-transparent {
+  color: #091133;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  /* 26/16 */
+  padding: 8px 15px;
+  min-inline-size: 189px;
+  border: 2px solid #111B47;
+  border-radius: 6px;
+  transition: all 0.5s ease;
+}
+
+.introduce__button-transparent:hover {
+  background-color: #111B47;
+  color: #fff;
+}
+
+/* -------- design --------- */
+
+.design {
+  padding-block: 120px;
+  font-family: "Roboto", sans-serif;
+  font-size: 0;
+}
+
+.design__container {
+  max-inline-size: 552px;
+}
+
+.design__header {
+  margin-block-end: 70px;
+}
+
+.design__title {
+  color: #091133;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.33;
+  /* 48/36 */
+  margin-block-end: 16px;
+}
+
+.design__text {
+  color: #6F7CB2;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.63;
+  /* 26/16 */
+}
+
+.design__text>p:not(:last-child) {
+  margin-block-end: 30px;
+}
+
+.services__items {
+  margin-inline: -15px;
+}
+
+.services__item {
+  width: 50%;
+  display: inline-block;
+  margin-block-end: 30px;
+  padding-inline: 15px;
+}
+
+.services__icon {
+  width: 36px;
+  margin-block-end: 14px;
+}
+
+.services__icon img {
+  max-inline-size: 100%;
+}
+
+.services__title {
+  color: #091133;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  /* 26/16 */
+  margin-block-end: 6px;
+}
+
+.services__text {
+  color: #5D6970;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  /* 18/12 */
+}
+
+.footer {
+  padding-block: 60px;
+  font-family: "Rubik Wet Paint", Arial, sans-serif;
+  background-color: #171717;
+}
+
+.footer__title {
+  text-align: center;
+  font-size: 42px;
+  color: #FFF;
+  text-shadow: 3px 3px 10px rgb(255, 69, 0);
+}
