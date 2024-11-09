@@ -982,6 +982,8 @@ body {
 }
 .title-block {
   flex: 0 1 246px;
+  padding-block: 50px;
+
 }
 .title-block__label {
   margin-block-end: 13px;
