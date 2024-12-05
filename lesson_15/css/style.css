@@ -2168,7 +2168,7 @@ body {
 @media (max-width: 1200.98px) {
 	.team__photos {
 		overflow: auto;
-		scroll-snap-type: mandatory;
+		scroll-snap-type: x mandatory;
 	}
 
 	.team__photo {
