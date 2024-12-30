@@ -17,6 +17,31 @@ body {
 	--color-900: #171717;
 	--color-950: #440b0e;
 }
+@media (any-hover: hover) {
+	body::before {
+	  content: "Hover enabled";
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  background: green;
+	  color: white;
+	  z-index: 9999;
+	  padding: 10px;
+	}
+ }
+ 
+ @media (any-hover: none) {
+	body::before {
+	  content: "Hover disabled";
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  background: red;
+	  color: white;
+	  z-index: 9999;
+	  padding: 10px;
+	}
+ }
 
 .wrapper {
 	min-height: 100%;
