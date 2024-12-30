@@ -1034,13 +1034,13 @@ body {
 	transition: all 0.5s ease;
 }
 
-@media (any-hover: hover) {
-	.advantages__items:hover {
-		cursor: pointer;
-		transform: scale(1.02);
-		transition: all 0.3s ease-out;
-		box-shadow: 5px 5px 10px #cfcfcf;
-	}
+@media (hover: hover) {
+  .advantages__items:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all 0.3s ease-out;
+    box-shadow: 5px 5px 10px #cfcfcf;
+  }
 }
 
 .advantages__caption {
