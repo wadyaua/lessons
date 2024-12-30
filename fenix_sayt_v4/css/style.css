@@ -1043,6 +1043,12 @@ body {
   }
 }
 
+@media (hover: none) {
+  .advantages__items {
+    transition: none; 
+  }
+}
+
 .advantages__caption {
 	display: flex;
 	flex-direction: column;
