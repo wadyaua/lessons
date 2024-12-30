@@ -1323,6 +1323,12 @@ body {
 	}
 }
 
+@media (any-hover: none) {
+	.services__item:hover {
+		pointer-events: none;
+	}
+}
+
 .services__icon {
 	max-width: 60px;
 	height: 60px;
