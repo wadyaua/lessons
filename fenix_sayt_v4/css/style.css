@@ -1034,7 +1034,7 @@ body {
 	transition: all 0.5s ease;
 }
 
-@media (hover: hover) {
+@media (hover: hover) and (pointer: fine) {
   .advantages__items:hover {
     cursor: pointer;
     transform: scale(1.02);
@@ -1043,9 +1043,11 @@ body {
   }
 }
 
-@media (hover: none) {
-  .advantages__items {
-    transition: none; 
+@media (hover: none), (pointer: coarse) {
+  .advantages__items:hover {
+    cursor: default;
+    transform: none;
+    box-shadow: none;
   }
 }
 
