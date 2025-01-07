@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>lesson 12</title>
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<!-- -------------------- header --------------------  -->
+		<header class="header">
+			<div class="header__container">
+				<h1 class="header__title">Home Work 12 - Transition & Animation</h1>
+			</div>
+		</header>
+
+		<main class="page">
+			<!-- - - - - - - - - transition - - - - - - - -  -->
+
+			<section class="transition">
+				<div class="transition__container">
+
+					<h2 class="transition__title title">transition-duration</h2>
+
+					<div class="transition__block">
+
+						<div class="transition__item transition__item--1">
+							<div class="transition__cube transition__cube--1">transition-duration: 1s</div>
+						</div>
+
+						<div class="transition__item transition__item--2">
+							<div class="transition__cube transition__cube--2">transition-duration: 0.3s</div>
+						</div>
+
+						<div class="transition__item transition__item--3">
+							<div class="transition__cube transition__cube--3">transition-duration: 1500ms</div>
+						</div>
+
+						<div class="transition__item transition__item--4">
+							<div class="transition__cube transition__cube--4">transition-duration: 0.05s</div>
+						</div>
+
+					</div>
+
+					<h3 class="transition__title title">transition-property & transition-delay</h3>
+
+					<div class="transition__block">
+
+						<div class="transition__item transition__item--5">
+							<div class="transition__cube transition__cube--5">transition-property: transform</div>
+						</div>
+
+						<div class="transition__item transition__item--6">
+							<div class="transition__cube transition__cube--6">transition-property: transform, color,
+								background-color<br>transition-delay: 0.3s</div>
+						</div>
+
+						<div class="transition__item transition__item--7">
+							<div class="transition__cube transition__cube--7">transition-delay: 0.5s</div>
+						</div>
+
+						<div class="transition__item transition__item--8">
+							<div class="transition__cube transition__cube--8">transition-delay: 1s</div>
+						</div>
+
+					</div>
+
+					<h4 class="transition__title title">transition-timing-function</h4>
+
+					<div class="transition__block">
+
+						<div class="transition__item transition__item--9">
+							<div class="transition__cube transition__cube--9">function 1</div>
+						</div>
+
+						<div class="transition__item transition__item--10">
+							<div class="transition__cube transition__cube--10">function 2</div>
+						</div>
+
+						<div class="transition__item transition__item--11">
+							<div class="transition__cube transition__cube--11">function 3</div>
+						</div>
+
+						<div class="transition__item transition__item--12">
+							<div class="transition__cube transition__cube--12">function 4</div>
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+
+			<!-- - - - - - - - - 3D + transition - - - - - - - - -->
+
+			<section class="block-3d">
+				<div class="block-3d__container">
+					<h2 class="block-3d__title title">3D + transition</h2>
+
+					<div class="block-3d__content content-3d">
+
+						<div class="content-3d__item content-3d__item--1">
+							<div class="content-3d__cube content-3d__cube--1">item 1</div>
+						</div>
+
+						<div class="content-3d__item content-3d__item--2">
+							<div class="content-3d__cube content-3d__cube--2">item 2</div>
+						</div>
+
+						<div class="content-3d__item content-3d__item--3">
+							<div class="content-3d__cube content-3d__cube--3">item 3</div>
+						</div>
+
+					</div>
+
+					<div class="block-3d__content content-3d">
+
+						<div class="content-3d__item content-3d__item--preserve-3d content-3d__item--4">
+							<div class="content-3d__cube content-3d__cube--4">item 4</div>
+						</div>
+
+						<div class="content-3d__item content-3d__item--preserve-3d content-3d__item--5">
+							<div class="content-3d__cube content-3d__cube--5">item 5</div>
+						</div>
+
+						<div class="content-3d__item content-3d__item--preserve-3d content-3d__item--6">
+							<div class="content-3d__cube content-3d__cube--6">item 6</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<!-- - - - - - - - - animation - - - - - - - --->
+
+			<section class="animation">
+				<div class="animation__container">
+
+					<h2 class="animation__title title">Animation section</h2>
+
+					<div class="animation__box animation__box--1">
+						<div class="animation__item animation__item--1">animation 1</div>
+					</div>
+
+					<div class="animation__box animation__box--2">
+						<div class="animation__item animation__item--2">animation 2</div>
+					</div>
+
+					<div class="animation__box animation__box--3">
+						<div class="animation__item animation__item--3">animation 3</div>
+						<div class="animation__item animation__item--4">animation 4</div>
+						<div class="animation__item animation__item--5">animation 5</div>
+					</div>
+
+					<h3 class="animation__title title">animation-play-state</h3>
+
+					<div class="animation__box animation__box--3">
+						<div class="animation__item animation__item--6">hover:<br>paused</div>
+						<div class="animation__item animation__item--7">hover:<br>running</div>
+						<div class="animation__item animation__item--8">hover:<br>running</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- - - - - - - - - car - - - - - - - - -->
+			<div class="car">
+				<div class="car__container">
+
+					<div class="car__dodge">
+
+						<div class="car__windows windows">
+							<div class="windows__front"></div>
+							<div class="windows__door"></div>
+							<div class="windows__passenger"></div>
+						</div>
+
+						<div class="car__body">
+							<div class="car__item car__item--1"></div>
+							<div class="car__item car__item--2"></div>
+							<div class="car__item car__item--3"></div>
+							<div class="car__item car__item--4"></div>
+							<div class="car__item car__item--5"></div>
+							<div class="car__item car__item--6"></div>
+							<div class="car__item car__item--7"></div>
+							<div class="car__item car__item--8"></div>
+							<div class="car__item car__item--9"></div>
+						</div>
+
+						<div class="car__door door">
+							<div class="door__item door__item--1"></div>
+							<div class="door__item door__item--2"></div>
+							<div class="door__item door__item--3"></div>
+							<div class="door__item door__item--4"></div>
+							<div class="door__item door__item--5"></div>
+							<div class="door__item door__item--6"></div>
+							<div class="door__item door__item--7"></div>
+							<div class="door__item door__item--8"></div>
+							<div class="door__item door__item--9"></div>
+							<div class="door__item door__item--10"></div>
+							<div class="door__item door__item--11"></div>
+							<div class="door__item door__item--12"></div>
+							<div class="door__item door__item--13"></div>
+						</div>
+
+						<div class="car__wheel wheel">
+							<div class="wheel__front"></div>
+							<div class="wheel__rear"></div>
+						</div>
+
+						<div class="car__details details">
+							<div class="details__item details__item--1"></div>
+							<div class="details__item details__item--2"></div>
+							<div class="details__item details__item--3"></div>
+							<div class="details__item details__item--4"></div>
+							<div class="details__item details__item--5"></div>
+							<div class="details__item details__item--6"></div>
+						</div>
+
+						<div class="car__flame"></div>
+						<div class="car__shadow"></div>
+					</div>
+				</div>
+			</div>
+
+		</main>
+
+		<!-- - - - - - - - - footer - - - - - - - - -->
+		<footer class="footer">
+			<div class="footer__container">
+				<h2 class="footer__title">Home Work 12 END</h2>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
