@@ -1657,7 +1657,7 @@ html {
 	line-height: 1.33; /* 24/18 */
 }
 .testimonials__author {
-	color: var(--gray-950)0;
+	color: var(--gray-950);
 	font-size: 1.125rem;
 	font-weight: 500;
 	line-height: 1.44; /* 26/18 */
